@@ -79,7 +79,7 @@ ClimateRisk360/
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📧 Contact
-Your Name - [@your_twitter](https://twitter.com/your_twitter) - your.email@example.com
+Your Name - [@atharva_ahire](https://www.linkedin.com/in/atharva-ahire-9b2796303/) - atharvaahire07@gmail.com
 
 ## 🙏 Acknowledgments
 - Public climate data providers
