@@ -1,0 +1,74 @@
+site_name: ClimateRisk360
+site_description: ESG & Insurance Risk Data Integration Platform
+site_author: Your Name
+repo_url: https://github.com/yourusername/ClimateRisk360
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - toc.integrate
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - extra
+  - meta
+  - nl2br
+  - sane_lists
+  - smarty
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_css:
+  - css/extra.css
+
+nav:
+  - Home: index.md
+  - User Guide:
+      - Installation: user-guide/installation.md
+      - Quick Start: user-guide/quickstart.md
+      - Configuration: user-guide/configuration.md
+  - API Reference:
+      - Data Ingestion: api/data_ingestion.md
+      - Data Cleaning: api/data_cleaning.md
+      - Data Processing: api/data_processing.md
+      - Analytics: api/analytics.md
+  - Development:
+      - Contributing: development/contributing.md
+      - Testing: development/testing.md
+      - CI/CD: development/ci-cd.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername/ClimateRisk360
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/yourusername
